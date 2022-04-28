@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--Page Title-->
+  <title>Title</title>
+  <!--SEO-->
+  <meta name="description" content="Description">
+  <meta name="keywords" content="keyword1, keyword2">
+  <!--Additional meta tags-->
+  <meta name="msthemecompatible" content="no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+  <link rel="manifest" href="./favicons/site.webmanifest">
+  <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicons/favicon.ico">
+  <link href="VELOSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="VELOSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link id="app-css" rel="stylesheet" href="./assets/styles/app.min.css">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!--Styles-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+    if (!('ontouchstart' in document.documentElement)) {
+      document.documentElement.className += ' no-touchevents';
+    } else {
+      document.documentElement.className += ' touchevents';
+    }
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <div class="no-js-warning">Для корректной работы сайта <b>включите JavaScript</b> в браузере</div>
+  </noscript>
+  <div id="confirm">
+    <div class="container">
+      <div class="confirm">
+        <h2 class="confirm-title">
+          ИЩЕТЕ ЧТО-ТО НОВОЕ?
+        </h2>
+        <div class="confirm-question">
+          Вам уже исполнилось 18 лет?
+        </div>
+        <div class="confirm-btn__block">
+          <a href="#" class="confirm-btn confirm-btn__open">Да</a>
+          <a href="https://google.com" class="confirm-btn">Нет</a>
+        </div>
+        <div class="confirm-warn">
+          На сайте содержится информация о никотиносодержащих продуктах.
+        </div>
+        <div class="confirm-cookie">
+          Сайт использует файлы cookies. Если согласны, продолжайте пользоваться сайтом. Более подробно об этом можно узнать в Политике Cookies.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="pre-header">
+    0 800 502 111 (Дзвінки безкоштовні, тільки для повнолітніх)
+  </div>
+  <header>
+    <div class="header">
+      <div class="header-logo">
+        <a href="/" class="header-logo__link">
+          <img src="assets/images/veloNew/logo.svg" alt="Velo">
+        </a>
+      </div>
+      <nav class="navbar">
+        <a href="#" class="nav-link">НАШИ ПРОДУКТЫ</a>
+        <a href="#" class="nav-link">VELO ЛЕНТА</a>
+        <a href="#" class="nav-link">КАРТА МАГАЗИНОВ</a>
+        <a href="#" class="nav-link">FAQ</a>
+        <a href="#" class="nav-link">СВЯЗАТЬСЯ</a>
+      </nav>
+      <div class="header-btns__block">
+        <div class="header-btn">
+          <a href="tel:88011000841" class="btn-link">
+            <img src="assets/images/veloNew/viber-icon.svg" alt="Velo">
+          </a>
+          <a href="#" class="btn-link header-icon">
+            <img src="assets/images/veloNew/header_icon1.svg" alt="Velo">
+          </a>
+          <a href="#" class="btn-link header-icon">
+            <img src="assets/images/veloNew/header_icon2.svg" alt="Velo">
+          </a>
+          <a href="#" class="btn-link header-icon">
+            <img src="assets/images/veloNew/header_icon3.svg" alt="Velo">
+          </a>
+          <div class="icon-line"></div>
+          <a href="#" class="btn-link social-link">
+            <img src="assets/images/veloNew/tg.svg" alt="Velo">
+          </a>
+          <a href="#" class="btn-link social-link">
+            <img src="assets/images/veloNew/fb.svg" alt="Velo">
+          </a>
+          <a href="#" class="btn-link social-link">
+            <img src="assets/images/veloNew/inst.svg" alt="Velo">
+          </a>
+        </div>
+        <div class="burger">
+          <img src="assets/images/veloNew/burger.svg" alt="Velo">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="popup popup-menu">
+    <nav class="mobile-navbar">
+      <a href="#" class="nav-link">НАШИ ПРОДУКТЫ</a>
+      <a href="#" class="nav-link">VELO ЛЕНТА</a>
+      <a href="#" class="nav-link">КАРТА МАГАЗИНОВ</a>
+      <a href="#" class="nav-link">FAQ</a>
+      <a href="#" class="nav-link">СВЯЗАТЬСЯ</a>
+    </nav>
+  </div>
+  <div id="main-bg">
+    <img class="mobile-bg" src="assets/images/veloNew/main-bg.jpg" alt="VeloBg">
+    <div class="top-block">
+      <div class="big-jar">
+        <img src="assets/images/first-screen-animation/bigJar.png" alt="Velo">
+      </div>
+      <div class="small-jar-shadow">
+        <img src="assets/images/first-screen-animation/smallJarShadow.png" alt="Velo">
+      </div>
+      <div class="small-jar">
+        <img src="assets/images/first-screen-animation/smallJar.png" alt="Velo">
+      </div>
+      <div class="velo-mini-group">
+        <img src="assets/images/first-screen-animation/veloMiniGroup.png" alt="Velo">
+      </div>
+      <h2 class="first-screen-title">
+        MINI-формат <br> возглавляет чарт
+      </h2>
+      <h2 class="first-screen-subtitle">
+        У ТЕБЯ есть Velo MINI
+      </h2>
+    </div>
+  </div>
+  <main class="main">
+    <div id="velo-mini">
+      <div class="velo-mini">
+        <h1 class="title velo-mini-title">
+          Встречай VELO Mini!
+        </h1>
+        <div class="velo-mini__text">
+          Теперь любимые вкусы <strong>VELO Polar Mint</strong> и <strong>VELO Berry Frost</strong> в новом <strong>ФОРМАТЕ MINI.</strong>
+          <br><br>
+          Паучи и банка становятся меньше. Вкус и крепость остаются неизменными.
+          Тот же любимый VELO, но в более компактном формате.
+        </div>
+        <div class="velo-mini-background"></div>
+      </div>
+      <div class="velo-mini__medium">
+        <div class="velo-mini__img">
+          <div class="velo-mint__triangle">
+            <img src="assets/images/second-screen-animation/mintTriangle.png" alt="Velo">
+          </div>
+          <div class="velo-mint__big-jar">
+            <img src="assets/images/second-screen-animation/mintBigJar.png" alt="Velo">
+            <div class="velo-jar-background"></div>
+          </div>
+          <div class="velo-mint__small-jar">
+            <img src="assets/images/second-screen-animation/mintSmallJar.png" alt="Velo">
+          </div>
+        </div>
+        <div class="velo-mini__medium_content">
+          <h1 class="title velo-mini__medium-title">
+            VELO Polar Mint
+            MEDIUM MINI
+          </h1>
+          <div class="velo-mini__medium_text">
+            Сладкая мята <br>
+            Крепость: 6 мг*
+          </div>
+        </div>
+        <div class="velo-mini-background berry-background-triangle"></div>
+      </div>
+      <div class="velo-mini-berry">
+        <div class="velo-mini__img">
+          <div class="velo-mint__triangle">
+            <img src="assets/images/second-screen-animation/berryTriangle.png" alt="Velo">
+          </div>
+          <div class="velo-mint__big-jar">
+            <img src="assets/images/second-screen-animation/berryBigJar.png" alt="Velo">
+            <div class="velo-jar-background berry-jar-background"></div>
+          </div>
+          <div class="velo-mint__small-jar">
+            <img src="assets/images/second-screen-animation/berrySmallJar.png" alt="Velo">
+          </div>
+        </div>
+        <div class="velo-mini__berry_content">
+          <div class="velo-mini__berry_info">
+            <h1 class="title velo-mini__berry-title">
+              VELO Berry Frost
+              MEDIUM MINI
+            </h1>
+            <div class="velo-mini__medium_text">
+              Освежающая ягода <br>
+              Крепость: 6 мг*
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mini-adv">
+      <div class="mini-adv-vector">
+        <div class="container">
+          <div class="mini-adv">
+            <h1 class="title mini-adv__title">
+              Преимущества <span> VELO Mini </span>
+            </h1>
+            <div class="mini-adv__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="mini-adv__slide swiper-slide">
+                  <div class="mini-adv__img">
+                    <div class="slider-number">1</div>
+                    <div class="desktop-img__block">
+                      <div class="velo-mini-big">
+                        <img src="assets/images/animate-third-screen/veloMiniBig.png" alt="Velo">
+                      </div>
+                      <div class="velo-mini-small">
+                        <img src="assets/images/animate-third-screen/veloMiniSmall.png" alt="Velo">
+                      </div>
+                    </div>
+                    <img class="mobile-img" src="assets/images/veloNew/mini-adv1.png" alt="Velo">
+                  </div>
+                  <div class="mini-adv-slide__title">
+                    MINI-формат – максимум комфорта
+                  </div>
+                  <div class="mini-adv-slide__text">
+                    Паучи становятся более компактными, а значит почти не ощущаются под губой
+                  </div>
+                </div>
+                <div class="mini-adv__slide swiper-slide">
+                  <div class="mini-adv__img">
+                    <div class="slider-number">2</div>
+                    <div class="desktop-img__block mini-marge">
+                      <div class="velo-mini__shadow-jar">
+                        <img src="assets/images/animate-third-screen/shadowJar.png" alt="Velo">
+                      </div>
+                      <div class="velo-mini__jar">
+                        <img src="assets/images/animate-third-screen/jar.png" alt="Velo">
+                      </div>
+                    </div>
+                    <img class="mobile-img" src="assets/images/veloNew/mini-adv2.png" alt="Velo">
+                  </div>
+                  <div class="mini-adv-slide__title">
+                    Размер имеет значение
+                  </div>
+                  <div class="mini-adv-slide__text">
+                    VELO Mini – это не только самые маленькие паучи, но и компактная банка, которую всегда удобно держать <span>при себе – в кармане, маленькой сумке или даже в руке – куда бы ты не отправился. VELO MINI – удобно, где угодно, когда угодно.</span>
+                  </div>
+                </div>
+                <div class="mini-adv__slide swiper-slide">
+                  <div class="mini-adv__img">
+                    <div class="slider-number">3</div>
+                    <div class="desktop-img__block mini-marge">
+                      <div class="velo-mini__jar2">
+                        <img src="assets/images/animate-third-screen/jar2.png" alt="Velo">
+                      </div>
+                      <div class="velo-mini__jar1">
+                        <img src="assets/images/animate-third-screen/jar1.png" alt="Velo">
+                      </div>
+                    </div>
+                    <img class="mobile-img" class="mini-adv__fix-width" src="assets/images/veloNew/mini-adv3.png" alt="Velo">
+                  </div>
+                  <div class="mini-adv-slide__title">
+                    Подходит для первого знакомства с VELO
+                  </div>
+                  <div class="mini-adv-slide__text mini-adv-slide__text-mobile">
+                    Если ты VELO-новичок – начинай знакомство c паучей в формате Mini в крепости Medium.
+                    Mini пауч почти не ощущается под губой, а средняя крепость идеально подходит для старта.
+                  </div>
+                  <div class="mini-adv-slide__text mini-adv-slide__text-desktop">
+                    Паучи MINI почти не ощущаются под губой, а крепость Medium идеально подходит для старта
+                  </div>
+                </div>
+              </div>
+              <div class="velo-mini__arrow-wrapper">
+                <div class="velo-mini__arrow arrow-prev">
+                  <img src="assets/images/veloNew/arrow-prev.svg" alt="VeloMini">
+                </div>
+                <div class="velo-mini__arrow arrow-next">
+                  <img src="assets/images/veloNew/arrow-next.svg" alt="VeloMini">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="inside-velo">
+      <div class="container">
+        <div class="inside-velo">
+          <h1 class="title inside-velo__title">
+            Что внутри <span>velo</span>?
+          </h1>
+          <div class="inside-velo__wrapper swiper">
+            <div class="swiper-wrapper">
+              <div class="inside-velo__img swiper-slide">
+                <div class="inside-velo-img-item1">
+                  <img class="inside-velo-img-item" src="assets/images/veloNew/icon1.svg" alt="Velo">
+                </div>
+              </div>
+              <div class="inside-velo__img swiper-slide">
+                <div class="inside-velo-img-item2">
+                  <img class="inside-velo-img-item" src="assets/images/veloNew/icon2.svg" alt="Velo">
+                </div>
+              </div>
+              <div class="inside-velo__img swiper-slide">
+                <div class="inside-velo-img-item3">
+                  <img class="inside-velo-img-item" src="assets/images/veloNew/icon3.svg" alt="Velo">
+                </div>
+              </div>
+              <div class="inside-velo__img swiper-slide">
+                <div class="inside-velo-img-item4">
+                  <img class="inside-velo-img-item" src="assets/images/veloNew/icon4.svg" alt="Velo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="use-velo" class="panel">
+      <div class="container">
+        <div class="use-velo">
+          <h1 class="title use-velo__title">
+            velo <br>
+            <span>Использовать <br> просто</span>
+          </h1>
+          <div class="use-velo__list swiper">
+            <div class="swiper-wrapper">
+              <div class="use-velo__list-item swiper-slide">
+                <div class="use-velo__list-item_number">1</div>
+                <div class="use-velo__img-wrapper">
+                  <img src="assets/images/veloNew/useVelo1.svg" alt="Velo">
+                </div>
+                <div class="use-velo__list-description">
+                  Расположите 1 пауч (подушечку) под верхней губой
+                </div>
+              </div>
+              <div class="use-velo__list-item swiper-slide">
+                <div class="use-velo__list-item_number">2</div>
+                <div class="use-velo__img-wrapper">
+                  <img src="assets/images/veloNew/useVelo2.svg" alt="Velo">
+                </div>
+                <div class="use-velo__list-description">
+                  Покалывание означает, что никотин начал действовать
+                </div>
+              </div>
+              <div class="use-velo__list-item swiper-slide">
+                <div class="use-velo__list-item_number">3</div>
+                <div class="use-velo__img-wrapper">
+                  <img src="assets/images/veloNew/useVelo3.svg" alt="Velo">
+                </div>
+                <div class="use-velo__list-description">
+                  Используйте до 30 минут
+                </div>
+              </div>
+              <div class="use-velo__list-item swiper-slide">
+                <div class="use-velo__list-item_number">4</div>
+                <div class="use-velo__img-wrapper">
+                  <img src="assets/images/veloNew/useVelo4.svg" alt="Velo">
+                </div>
+                <div class="use-velo__list-description">
+                  Поместите использованный пауч в специальный контейнер в банке
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="filter-block" class="panel">
+      <div class="filter-block__vector"></div>
+      <div class="container">
+        <div class="filter-block">
+          <div class="title filter-title">
+            <span>Откройте вкусы velo</span> <br> и узнайте, какой <br> подходит вам:
+          </div>
+          <div class="filter-btn__block">
+            <a href="#taste-popup3" class="filter-btn btn open-popup">
+              пробовал velo
+            </a>
+            <a href="#" class="filter-btn btn firstTime">
+              не пробовал velo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="best-velo">
+      <div class="container">
+        <div class="best-velo">
+          <h1 class="best-velo__title slider-velo__title">
+            Лучший выбор для <br> тех, кто впервые <br> использует VELO
+          </h1>
+          <div class="best-velo__subtitle">
+            Линейка Medium с крепостью 6 мг в одном пауче** — <br>
+            минимальное содержание никотина среди всей продукции VELO в Беларуси.
+          </div>
+          <div class="velo-goods best-velo-slider swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/bestVeloNew1.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO polar mint medium
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>6 мг в одному пауче**</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Сладкая мята с нотками эвкалипта
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/bestVeloNew2.png" alt="Velo">
+                  <div class="velo-new-good">
+                    СКОРО
+                  </div>
+                </div>
+                <div class="velo-good__title">
+                  VELO berry frost medium
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>6 мг в одному пауче**</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Яркий вкус летних ягод
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="velo-description">
+      <div class="container">
+        <div class="velo-description">
+          <span>VELO</span> – ЭТО ИННОВАЦИОННЫЙ СПОСОБ ПОТРЕБЛЕНИЯ НИКОТИНА БЕЗ СИГАРЕТ.
+          <b>VELO СОДЕРЖИТ НА 99% МЕНЬШЕ ТОКСИЧНЫХ ВЕЩЕСТВ, ЧЕМ СИГАРЕТА**</b>
+        </div>
+      </div>
+    </div>
+    <div id="medium-user">
+      <div class="container">
+        <div class="medium-user">
+          <h1 class="velo-goods__title slider-velo__title">
+            Рекомендован тем, <br> кто уже знаком с velo
+          </h1>
+          <div class="velo-goods velo-goods-much medium-slider">
+            <div class="swiper-pagination"></div>
+            <div class="init-slider">
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloProd1.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO royal purple strong
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Cочный виноград
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/veloProd6.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO GREEN FUSION STRONG
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Зимние специи
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloProd2.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO ice cool strong
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Ледяная мята
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloProd3.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO MEADOW FROST X-STRONG
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10,9 мг в одном пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Освежающая ягода с травяными нотками
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloProd4.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO freeze x-strong
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10,9 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Морозная мята
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloProd5.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  velo Tropic Breeze X-Strong
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>10,9 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Cочный вкус тропических фруктов
+                </div>
+              </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="advanced-user">
+      <div class="container">
+        <div class="advanced-user">
+          <h1 class="slider-velo__title">
+            Подходит для опытных <br> пользователей
+          </h1>
+          <div class="velo-goods velo-goods-much advanced-slider">
+            <div class="swiper-pagination"></div>
+            <div class="init-adv-slider">
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/advVeloProd1.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO yellow root ultra
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight"></div>
+                    <span>15 мг в одному пауче**</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Пряный имбирь
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/advVeloProd2.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO urban vibe ULTRA
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight"></div>
+                    <span>15 мг в одному пауче**</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Фруктово-ягодный взрыв
+                </div>
+              </div>
+              <div class="velo-goods__item swiper-slide">
+                <div class="velo-good__img">
+                  <img src="assets/images/veloNew/advVeloProd3.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO x-freeze ULTRA
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight"></div>
+                    <span>15 мг в одном пауче**</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Перечная мята
+                </div>
+              </div>
+              <!-- <div class="velo-goods__item velo-goods__last-slide swiper-slide"></div> -->
+            </div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sashe">
+      <div class="container">
+        <div class="sashe">
+          <h1 class="slider-velo__title">
+            В формате саше
+          </h1>
+          <div class="sashe-slider">
+            <div class="init-sashe">
+              <div class="sashe-slide swiper-slide">
+                <div class="sashe__img">
+                  <img src="assets/images/veloNew/sashe1.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO BERRY FROST MEDIUM MINI
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>6 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Освежающая ягода
+                </div>
+              </div>
+              <div class="sashe-slide swiper-slide">
+                <div class="sashe__img">
+                  <img src="assets/images/veloNew/sashe3.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO BERRY FROST MEDIUM
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>6 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Освежающая ягода
+                </div>
+              </div>
+              <div class="sashe-slide swiper-slide">
+                <div class="sashe__img">
+                  <img src="assets/images/veloNew/sashe2.png" alt="Velo">
+                </div>
+                <div class="velo-good__title">
+                  VELO ICE COOL STRONG
+                </div>
+                <div class="velo-good__streight">
+                  <div class="velo-streight__block">
+                    <div class="velo-streight active"></div>
+                    <div class="velo-streight active"></div>
+                    <span>6 мг в одному пауче*</span>
+                  </div>
+                </div>
+                <div class="velo-good__taste">
+                  Ледяная мята
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="explanation-block">
+      <div class="explanation-block">
+        <div class="explanation-item">
+          <div class="explanation-item__container">
+            * Уровень никотина определяется методом газовой хроматографии. Данный метод основан на международной методике CORESTA 62. Допустимо возможное отклонение уровня содержания никотина в одном пауче на +/-15%.
+          </div>
+        </div>
+        <div class="explanation-item">
+          <div class="explanation-item__container">
+            ** Этот продукт не исключает риски, содержит никотин, вызывающий привыкание. Сравнение основано на оценке веществ в дыме стандартной эталонной сигареты (с содержанием смолы приблизительно 9 мг) и компонентов, выделяемых во время использования пауча VELO, а именно средних значений 9 основных токсичных веществ, которые Всемирная организация здравоохранения рекомендует сократить в сигаретном дыме.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="assets/images/veloNew/footer-logo.svg" alt="Velo">
+      </div>
+      <div class="footer-menu">
+        <a href="#" class="footer-link">Контакты</a>
+        <a href="#" class="footer-link">Условия использования сайта</a>
+        <a href="#" class="footer-link">Политика в отношении персональных данных</a>
+        <a href="#" class="footer-link">Политика Cookie</a>
+      </div>
+    </div>
+    <!--  <div class="footer-copyright">-->
+    <!--    © 2019 ИНОСТРАННОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ-->
+    <!--    "БРИТИШ-АМЕРИКАН ТОБАККО ТРЕЙДИНГ КОМПАНИ"-->
+    <!--    УНП 101169738-->
+    <!--  </div>-->
+  </footer>
+  <div id="age-fixed">
+    <img class="desk" src="assets/images/desk.svg" alt="Velo">
+    <img class="mob" src="assets/images/mob.svg" alt="Velo">
+  </div>
+  <script src="./assets/libs/js/jquery.min.js"></script>
+  <script src="./assets/libs/js/svg4everybody.min.js"></script>
+  <script src="./assets//libs/js/slick.min.js"></script>
+  <script src="./assets/scripts/app.min.js"></script>
+</body>
+
+</html>
